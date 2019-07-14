@@ -6,7 +6,13 @@
 
   .large-hero__image {
   display: block;
-  width: 100%;
+  }
+
+  @media (min-width: 800px) {
+
+  .large-hero__image {
+      width: 100%
+  }
   }
 
   .large-hero__text-content {
@@ -24,7 +30,8 @@
   @media (min-width: 800px) {
 
   .large-hero__text-content {
-      padding-top: 60px
+      padding-top: s60px;
+      background-color: rgba(192,192,192,0.4)
   }
   }
 
