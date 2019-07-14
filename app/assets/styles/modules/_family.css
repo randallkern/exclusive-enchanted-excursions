@@ -1,0 +1,17 @@
+
+
+.family {
+
+
+  &__image{
+    width: 20%;
+    border-radius: 50%;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+  }
+
+  @mixins atMedium {
+
+  }
+
+}

@@ -4,16 +4,10 @@
 
 }
 
-
-
   .large-hero__image {
-  display: inherit;
+  display: block;
   width: 100%;
-  background: url("assets/images/beach-without-shadow.jpg") no-repeat;
-
   }
-
-
 
   .large-hero__text-content {
     padding-top: 88px;
@@ -24,20 +18,15 @@
     left: 0;
     width: 100%;
     text-align: center;
+    background-color: rgba(192,192,192,0.4);
   }
 
-
-
   @media (min-width: 800px) {
-
-
 
   .large-hero__text-content {
       padding-top: 60px
   }
   }
-
-
 
   .large-hero__title {
     font-weight: 300;
@@ -48,19 +37,13 @@
 
   }
 
-
-
   @media (min-width: 530px) {
-
-
 
   .large-hero__title {
       font-size: 2.8rem
 
   }
   }
-
-
 
   .large-hero__subtitle {
     font-weight: 300;
@@ -71,19 +54,13 @@
 
   }
 
-
-
   @media (min-width: 530px) {
-
-
 
   .large-hero__subtitle {
       font-size: 1.9rem
 
   }
   }
-
-
 
   .large-hero__description {
     color: #2f5572;
@@ -95,11 +72,7 @@
     margin-right: auto;
   }
 
-
-
   @media (min-width: 530px) {
-
-
 
   .large-hero__description {
       font-size: 1.875rem
@@ -173,4 +146,55 @@
 .btn--large {
       font-size: 1.25rem
   }
+  }
+.section-title {
+  font-size: 2.55rem;
+  font-weight: 300;
+  text-align: center;
+
+}
+@media (min-width: 530px) {
+.section-title {
+    font-size: 3.75rem
+
+}
+  }
+.section-title strong {
+    font-weight: 500;
+  }
+.section-title--purple {
+    color: #8000FF;
+  }
+.section-title--less-margin {
+    margin-bottom: 1.3rem;
+    margin-top: 0;
+  }
+.section-title__icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .6rem;
+  }
+@media (min-width: 530px) {
+.section-title__icon {
+      position: relative;
+      top: 8px;
+      margin-right: .5rem;
+      margin-left: 0;
+      margin-bottom: 0;
+      display: inline-block
+  }
+  }
+.family {
+
+  @mixins atMedium {
+
+  }
+
+}
+.family__image{
+    width: 20%;
+    border-radius: 50%;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
   }
