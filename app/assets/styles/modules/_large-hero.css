@@ -2,6 +2,15 @@
   border-bottom: 10px solid $mainPurple;
   position: relative;
 
+  &__family-block {
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+  }
+
   &__image {
   display: block;
 

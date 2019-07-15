@@ -4,6 +4,15 @@
 
 }
 
+  .large-hero__family-block {
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+  }
+
   .large-hero__image {
   display: block;
   }
@@ -138,6 +147,7 @@
   text-decoration: none;
   padding: .75rem 1.2rem;
   display: inline-block;
+  margin-top: -50px;
 
 }
 .btn--orange {
